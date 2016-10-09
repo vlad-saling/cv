@@ -37,96 +37,64 @@
         padding: 0;
         background-color: #1d1d1d;
         line-height: 1.25rem;
+        display: flex;
     }
 
-        
-
-    
-    /*.namecard {
+    body:before {
         position: absolute;
-        height: 100%;
-        width: 100%;
-        background: url(nc.svg) 0 0 no-repeat transparent;
-        background-size: contain;
-        color:transparent;
-        
-    }*/
-
-    .teal {
-        padding-top: 1.5rem;
-        position: absolute;
-        width:25%;
-        height: 100%;
+        content: "";
+        display:block;
+        width: 25vw;
+        min-width: 125px;
         background-color: #04CBBC;
+        height: 100vh;
     }
 
-        .teal .data > ul {
-            list-style: none;
-            padding: 0 10px 0 0;
-            text-align: right;
-        }
-
-    .gray {
-        padding-top: 1.5rem;
-        position: absolute;
-        width:75%;
-        right: 0;
-        height: 100%;
-        background-color:  #1d1d1d;
+    .data {
+        position: relative;
         color: #FC3030;
+        list-style: none;
+        padding: 0 10px 0 0;
     }
 
-        .gray ul {
-            list-style: none;
-            padding: 0 0 0 10px;
-        }
-
-            .gray a {
-                color: #04CBBC;
-            }
-
-                .gray .skill span {
-                    color: #1d1d1d;
-                    background-color:  #FC3030;
-                }
-
-
+    .data > li {
+        display: flex;
+    }
     
-            
+    a {
+        color: #04CBBC;
+    }
 
+    .label {
+        width: 25vw;
+        min-width: 125px;
+        display:inline-block;
+        text-align: right;
+        color: #1d1d1d;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
 
-
-
+    .skills > span {
+        color: #1d1d1d;
+        background-color:  #FC3030;
+        white-space: nowrap;
+    }
+    
 
 </style>
 </head>
 <body>
-<div class="teal">
-    <div class="data">
-        <ul>
-            <li>name</li>
-            <li>skills</li>
-            <li>email</li>
-            <li>github</li>
-            <li>linkedin</li>
-            <li>portfolio</li>
-        </ul>
-    </div>
-</div>
-<div class="gray">
-    <div class="data">
-        <ul>
-            <li>vladislav saling</li>
-            <li class="skill"><span>#css</span> <span>#sass</span> <span>#less</span> <span>#html</span> <span>#front-end</span></li>
-            <li>vladislavsaling_at_gmail.com</li>
-            <li><a href="https://github.com/vlad-saling">vlad-saling</a></li>
-            <li><a href="https://sk.linkedin.com/pub/vladislav-saling/26/54a/9bb">vladislav-saling</a></li>
-            
-            <li>comming soon(ish)</li>
-        </ul>
-    </div>
 
-</div>
+    <ul class="data">
+        <li><span class="label">name</span><span class="value">vladislav saling</span></li>
+        <li><span class="label">skills</span><span class="skills"><span>#css</span> <span>#sass</span> <span>#less</span> <span>#html</span> <span>#front-end</span</span></li>
+        <li><span class="label">email</span><span class="value">vladislavsaling_at_gmail.com</span></li>
+        <li><span class="label">github</span><a href="https://github.com/vlad-saling">vlad-saling</a></li>
+        <li><span class="label">twitter</span><a href="https://twitter.com/vladsaling">vladsaling</a></li>
+        <li><span class="label">linkedin</span><a href="https://sk.linkedin.com/pub/vladislav-saling/26/54a/9bb">vladislav-saling</a></li>
+        <li><span class="label">portfolio</span><span class="value">comming soon(ish)</span></li>
+    </ul>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
