@@ -44,8 +44,8 @@
         position: absolute;
         content: "";
         display:block;
-        width: 25vw;
-        min-width: 125px;
+        min-width: 25vw;
+        min-width: 25%;
         background-color: #04CBBC;
         height: 100vh;
     }
@@ -67,7 +67,7 @@
 
     .label {
         width: 25vw;
-        min-width: 125px;
+        min-width: 25%;
         display:inline-block;
         text-align: right;
         color: #1d1d1d;
@@ -79,7 +79,24 @@
         color: #1d1d1d;
         background-color:  #FC3030;
         white-space: nowrap;
+        padding: 0 5px;
     }
+
+    .skills > span.prime {
+        position: relative;
+    }
+
+        .skills > span.prime:after {
+            content: "";
+            position: absolute;
+            display: block;
+            background-color: #fff;
+            width: 7px;
+            height: 10px;
+            top: -6px;
+            right: -4px;
+            transform: rotate(45deg);
+        }
     
 
 </style>
@@ -88,7 +105,7 @@
 
     <ul class="data">
         <li><span class="label">name</span><span class="value">vladislav saling</span></li>
-        <li><span class="label">skills</span><span class="skills"><span>#css</span> <span>#sass</span> <span>#less</span> <span>#html</span> <span>#front-end</span</span></li>
+        <li><span class="label">skills</span><span class="skills"><span class="prime">CSS</span> <span class="prime">HTML</span> <span class="prime">Web Design</span> <span class="prime">Web Development</span> <span>jQuery</span> <span>JavaScript</span> <span>PHP</span> <span class="prime">XHTML</span> <span class="prime">HTML 5</span> <span class="prime">Photoshop</span> <span>Web Applications</span> <span class="prime">Front-end</span> <span>SEO</span> <span>Blogging</span> <span>Accessibility</span> <span>Graphic design</span> <span>3D graphics</span>  <span>SASS</span> <span>Information Architecture</span> <span>AJAX</span> <span>Web Project Management</span> <span>Apache</span> <span>Web Analytics</span> <span>Wordpress</span> <span class="prime">Ubuntu</span> <span>Blender</span> <span>XAMPP</span> <span class="prime">Github</span> <span class="prime">Git</span> <span>User Interface</span> <span>Subversion</span> <span>Bash</span> <span class="prime">GruntJS</span> <span>Gulp.js</span> <span>Node.js</span> <span class="prime">Stash</span> <span>npm</span> </span></li>
         <li><span class="label">email</span><span class="value">vladislavsaling_at_gmail.com</span></li>
         <li><span class="label">github</span><a href="https://github.com/vlad-saling">vlad-saling</a></li>
         <li><span class="label">twitter</span><a href="https://twitter.com/vladsaling">vladsaling</a></li>
