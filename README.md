@@ -1,4 +1,5 @@
-## namecard
-personal contact and portfolio page
+## things for recruiters
 
-url: [http://vlad-saling.github.io/namecard/](http://vlad-saling.github.io/namecard/)
+- portfolio
+- cv
+- email template
