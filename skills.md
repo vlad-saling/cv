@@ -11,17 +11,20 @@ FrontEnd development oriented main skill set.
 
 Supplementary skills & technologies
 
-- Electron
 - Vue + Vuex
 - Task runers: Grun, Gulp, NPM, Webpack
+- Angular
+- Handlebars (Assemble IO)
 - Bash 
 - Git (Github, Bitbucket, Gitlab), Svn
 - Performance optimization
 - Linux
 - Design (Photoshop, Adobe XD, Blender)
+- Electron
 - Wordpress
 - TypeScript (beginner)
 - PHP (beginner)
+- Firebase (beginner)
 - Blogging
 
 
@@ -30,7 +33,7 @@ Supplementary skills & technologies
 Other (soft) skills
 
 - English language
-- Hungarian language
+- Hungarian language (passive)
 - Mentoring & coaching
 - Community leadership (dev community at employer)
 - Agile methodologies
