@@ -1,7 +1,29 @@
-- education
-- career w/ portfolio
 
 ## Portfolio
+
+### Main
+Development and maintenance of front end library for ibm.com (three major versions) plus related consulting and integration, devops. Library itself resembles bootstrap-like asset list (html patters, css, js, icons). Integration and consulting activities were mainly about helping other teams within IBM to integrate our library into various projects with different stacks (from basic static html pages to React based app). I also developped a number of tools to make integration of our internal library easier (boilerplates, skeleton applications, tools). I've have experience with project management (people, budgets, technical things) although I preffer development and reasearch. 
+
+
+### Oter web projects
+https://www.ibm.com/us-en/ (top level pages prototype and number of projects under same domain)  
+http://kandidat.azyl.sk/ (under konkurencia.eu)  
+http://www.demovnica.sk/  (under konkurencia.eu)  
+http://lavitapezinok.sk/ (under konkurencia.eu)  
+http://www.edocu.sk/ (under eDocu)  
+http://funradio.sk/ (under bait.sk, 2011)  
+http://edencars.sk/ (under bait.sk, 2012)  
+Tickk mobile app (under bait.sk)  
+http://www.hudobna-skupina.sk/   
+
+ 
+### Personal/pet projects 
+http://vlad-saling.github.io/star-trek-ipsum/ 
+http://meetpollux.com/
+https://github.com/LabZoneSK/Le-co
+https://github.com/vlad-saling?tab=repositories
+
+
 
 ## Career
 

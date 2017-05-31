@@ -3,7 +3,7 @@
 FrontEnd development oriented main skill set.
 
 - HTML (Accesibility, Semantics, SEO)
-- CSS (SASS, LESS, PostCSS) 
+- CSS (processors: SASS, LESS, PostCSS; methodologies: SMACSS, BEM, Atomic, Predix...) 
 - JavaScript (ES6, jQuery)
 - Web development
 
@@ -11,6 +11,7 @@ FrontEnd development oriented main skill set.
 
 Supplementary skills & technologies
 
+- Responsive design
 - Vue + Vuex
 - Task runers: Grun, Gulp, NPM, Webpack
 - Angular
