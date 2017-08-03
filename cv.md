@@ -18,9 +18,9 @@ http://www.hudobna-skupina.sk/
 
  
 ### Personal/pet projects 
-http://vlad-saling.github.io/star-trek-ipsum/ 
-http://meetpollux.com/
-https://github.com/LabZoneSK/Le-co
+http://vlad-saling.github.io/star-trek-ipsum/   
+http://meetpollux.com/  
+https://github.com/LabZoneSK/Le-co  
 https://github.com/vlad-saling?tab=repositories
 
 
