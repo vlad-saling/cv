@@ -2,7 +2,10 @@
 ## Portfolio
 
 ### Main
-Development and maintenance of front end library for ibm.com (three major versions) plus related consulting, integration and devops. Library itself resembles bootstrap-like assets (html patters, css, js, icons). Integration and consulting activities were mainly about helping other teams within IBM to integrate our library into various projects with different stacks (from basic static html pages to React based app). I also developped a number of tools to make integration of our internal library easier (boilerplates, skeleton applications, tools). Beyond this, I actively worked with developers and maintained community within IBM with purpose of knowledge sharing. I've have experience with project management (people, budgets, technical things) although I preffer development and reasearch. Alongside my daily job at IBM I worked as "CSS guy" for number of companies on all sorts of projects. You can find few examples in following section.
+Development and maintenance of front end library for ibm.com (three major versions) plus related consulting, integration and devops. Library itself resembles bootstrap-like assets (html patters, css, js, icons). Consulting activities were mainly about helping other teams within IBM to integrate our library into various projects with different stacks (from basic static html pages to React based app). I also developed a number of tools to make integration of our internal library easier (boilerplates, skeleton applications, tools). 
+
+Beyond what’s mentioned above I actively worked with developers and maintained local community within IBM with purpose of knowledge sharing. I also have experience with project management (people, budgets, technical things) although I prefer development and research. Alongside my daily job at IBM I worked as "CSS guy" for number of companies on all sorts of projects. You can find few examples in following section.
+
 
 
 ### Oter web projects
@@ -49,11 +52,11 @@ Mar 2004 – May 2016
 ## Education
 
 ### Ekonomická univerzita v Bratislave  
-Degree Name Master's degree Field Of Study Information technlogies  
+Master's degree in Information technlogies  
 
 ### Univerzita 'Konštantína Filozofa' v Nitre  
-Degree Name Bachelor's degree Field Of Study Information technologies  
+Bachelor's degree in Information technologies  
 
 ### Secondary engineering school  
-Field Of Study Technical and informatics services  
+Technical and informatics services  
  
