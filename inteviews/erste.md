@@ -14,8 +14,7 @@ Organization Q:
 - more home office - per department
 - sick leave - 100% coverage for 10 days then 500 eur bonus for every 30 days
 - yearly salary review
-- sabatical: extra vacation with lower paymesiac volno po narodeni dietata
-- extra volno za znizeny plat
+- sabatical: extra vacation with lower pay + extra month after child birth
 - company assigned phone - iphone, samsung
 - language courses for free
 - after project: expanding, so whatever happens
