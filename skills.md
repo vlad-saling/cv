@@ -12,18 +12,19 @@ FrontEnd development oriented main skill set.
 - CSS (processors: SASS, LESS, PostCSS; methodologies: SMACSS, BEM, Atomic, Predix...) 
 - JavaScript (ES6, jQuery)
 - Web development
+- Responsive design
+- Vue + Vuex
+- Task runers: Grun, Gulp, NPM
+- Bash 
+- Git (Github, Bitbucket, Gitlab), Svn
 
 ## Secondary
 
 Supplementary skills & technologies
 
-- Responsive design
-- Vue + Vuex
-- Task runers: Grun, Gulp, NPM, Webpack
+- Task runers: Webpack
 - Angular
 - Handlebars (Assemble IO)
-- Bash 
-- Git (Github, Bitbucket, Gitlab), Svn
 - Performance optimization
 - Linux
 - Design (Photoshop, Adobe XD, Blender)
