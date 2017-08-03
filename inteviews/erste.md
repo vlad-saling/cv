@@ -1,17 +1,25 @@
 https://www.erstegroupit.com/en/career/positions-SK/Front-End-Engineer-Internet-Banking
 
-Q about company and assignment:
-1) procare-like benefit
-2) bonus vacation/sickdays
-3) bonuses in general
-4) home office
-5) 3rd pillar benefit
-6) traveling to vienna
-7) per diem
-8) career advances
-9) more home office
+Organization Q:
+- taxing to be announced
+- two work places instead of business trip
+- procare-like benefit - remedy
+- bonus vacation/sickdays - 4 days
+- bonuses in general - 20% bonus
+- home office - per department
+- 3rd pillar benefit - NO
+- traveling to vienna - covered
+- per diem - covered
+- career advances - TBD
+- more home office - per department
+- sick leave - 100% coverage for 10 days then 500 eur bonus for every 30 days
+- yearly salary review
+- sabatical: extra vacation with lower paymesiac volno po narodeni dietata
+- extra volno za znizeny plat
+- company assigned phone - iphone, samsung
+- language courses for free
+- after project: expanding, so whatever happens
 
-Q about project:
-1) after project
-2) communication tools
+Technical Q:
+- communication tools
 
