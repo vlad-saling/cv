@@ -21,4 +21,4 @@ Organization Q:
 
 Technical Q:
 - communication tools
-
+- contract length
