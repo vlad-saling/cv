@@ -10,33 +10,61 @@
             font-family: 'Ubuntu', sans-serif;
             padding: 50px 0;
             color: #444;
+            --primary: #e70333;
         }
 
         .heading {
             color: #000;
         }
 
-        .heading--teal {
-            background: #e70333;
-            color: white;
-            padding: 0.5em;
+        .heading > span {
+            font-size: 0.75em;
+            font-weight: 400;
+            background-color: var(--primary);
+            color: #fff;
+            padding: 2px 6px;
+            border-radius: 3px;
+            display: inline-block;
         }
 
         a,
         strong,
         .color--alt {
-            color: #e70333;
+            color: var(--primary);
         }
 
         .underline--alt {
-            color: #e70333;
+            color: var(--primary);
             padding: 2px;
-            border-bottom: 1px solid #e70333;
+            border-bottom: 1px solid var(--primary);
         }
 
         p,
         ul {
             line-height: 1.4em;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        p + ul {
+            margin-top: 0;
+        }
+
+        .skills {
+            font-size: 0.8em;
+        }
+
+    /*  print styles   */
+        @media print {
+            .heading > span {
+                color: #000;
+            }
+
+            .container--fixed {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -48,7 +76,7 @@
         <div class="c-m-12">
 
             <h1 class="heading giga m-bottom-0 color--alt">Vladislav Saling</h1>
-            <p class="m-top-0 underline--alt">developer, co-founder</p>
+            <p class="m-top-0 underline--alt">Founder, Developer, Fixer</p>
             <!-- <p>twitter, gmail, phone, linkedin, github</p> -->
 
         </div>
@@ -56,11 +84,28 @@
         <div class="c-m-9">
 
             <p>
-                My speciality is architecture and development of <strong>front end design systems</strong>, meaning <strong>CSS</strong>, <strong>HTML patterns</strong>, <strong>libraries</strong>, <strong>frameworks</strong>. However, in recent years I dive deeper into JavaScript and surrounding ecosystem. I've studied (and utilized) popular frameworks out there and I always seek opportunities to expand my knowledge.</p> 
-                
-                <p>My formal education gave me broad view of IT industry and my hobbies lead me towards artistic fields like 3D and 2D design. Beyond that I actively work with junior developers and maintain communities with purpose of knowledge sharing. </p>
+                My speciality is architecture and development of <strong>Design systems</strong>, meaning <strong>CSS</strong>, <strong>HTML patterns</strong>, <strong>libraries</strong>, <strong>frameworks</strong>
+            </p>
 
-                <p>I also have experience with project management. </p>
+            <p>
+                I mostly do regular Front End development using JavaScript and adjacent ecosystems. I've studied and utilized <strong>Vue</strong> and <strong>React</strong> and I always seek opportunities to expand my knowledge.
+            </p>
+
+            <p>
+                My formal education gave me broad overview of IT industry and my hobbies lead me towards artistic fields like 3D and 2D design.
+            </p>
+
+            <p>
+                Beyond that I actively work with junior developers, can run communities and have experience with project management, recruiting, smart homes and 3d printing.
+            </p>
+
+            <p>
+                I'm also a <strong>co-founder</strong> of <a href="https://labzone.tech/">LabZone</a>, a company that focuses on building <strong>virtual teams</strong>.
+            </p>
+
+            <p>
+                I've worked in office, remotely, in small or very large teams while using <strong>Agile</strong> methodologies.
+            </p>
 
         </div>
 
@@ -79,42 +124,40 @@
 
             <h2 class="heading mega m-top-1 color--alt underline--alt">Skills</h2>
 
-            <h3 class="heading">Technical skills</h3>
+            <h3 class="heading">Hard skills</h3>
 
-            <ul>           
-                <li><strong>HTML</strong>
-                    <ul>
-                        <li>Accessibility</li>
-                        <li>Semantics</li>
-                        <li>SEO</li>
-                        <li>Microformats</li>
-                    </ul>
-                </li>
-
-                <li><strong>CSS</strong> 
-                    <ul>
-                        <li>processors: SASS, LESS, PostCSS</li>
-                        <li>methodologies: SMACSS, BEM, Atomic</li>
-                        <li>performance optimization</li>
-                        <li>large scale architecture</li>
-                    </ul>
-                </li>
-                <li><strong>JavaScript</strong>
+            <ul>
+                <li><strong>FrontEnd</strong>
                     <ul>
                         <li>ES6</li>
                         <li>jQuery</li>
                         <li>Vue + Vuex</li>
-                        <li>React + Redux</li>
+                        <li>React incl Hooks + Redux || Context</li>
+                        <li>Typescript</li>
                         <li>NPM, Yarn</li>
-                        <li>Grunt, Gulp, Webpack</li>
+                        <li>Grunt, Gulp, Webpack, Vite</li>
                         <li>NodeJS</li>
                         <li>Handlebars (Assemble IO)</li>
                         <li>Electron</li>
-                        <li>Angular & TypeScript (beginner)</li>
+                        <li>CSS processors: SASS, LESS, PostCSS</li>
+                        <li>CSS methodologies: SMACSS, BEM, Atomic</li>
+                        <li>performance optimization</li>
+                        <li>large scale architecture</li>
+                        <li>responsive design</li>
+                        <li>Accessibility</li>
+                        <li>Semantics</li>
+                        <li>SEO</li>
+                        <li>Microformats</li>
                     </ul> 
                 </li>
 
-                <li><strong>Responsive design</strong></li>
+                <li><strong>Testing & tooling</strong>
+                    <ul>
+                        <li>Storybook</li>
+                        <li>Cypress</li>
+                        <li>Jest</li>
+                    </ul>
+                </li>
 
                 <li><strong>Cloud & DevOps</strong>
                     <ul>
@@ -131,17 +174,20 @@
                         <li>Subversion</li>
                     </ul>
                 </li>
-                
-                <li><strong>Bash</strong></li>
 
-                <li><strong>PHP</strong> (beginner)
+                <li><strong>Other</strong>
                         <ul>
-                            <li>Wordpress</li>
+                            <li>Bash</li>
+                            <li>Symphony (basic)</li>
+                            <li>PHP (basic)</li>
+                            <li>Python (basic)</li>
+                            <li>Rust (basic)</li>
                         </ul>
                     </li>
                 
                 <li><strong>Linux</strong> (Debian/Debian-based)</li>
                 <li><strong>Design</strong> (Photoshop, Adobe XD, Blender)</li>
+                <li><strong>3D Printing</strong> (FDM)</li>
                 <li>Ability to code without fighting over "tabs vs spaces"</li>
             </ul>
 
@@ -149,7 +195,7 @@
 
             <ul>
                 <li>English language</li>
-                <li>Hungarian language (passive)</li>
+                <li>Hungarian language</li>
                 <li>Project management</li>
                 <li>Mentoring & coaching</li>
                 <li>Community leadership</li>
@@ -161,109 +207,129 @@
 
             <h3 class="heading mega m-top-2 color--alt underline--alt">Experience</h3>
 
-            <h4 class="heading kilo">Co-Founder @ LabZone s.r.o.</h4>
-            <p class="m-top-0">Mar 2017 - Present</p>
+            <h4 class="heading kilo">React developer @ IBM <span class="time">Nov 2019 - present</span></h4>
             <ul>
-                <li>company management</li>
-                <li>design and development of <a href="http://labzone.sk/">LabZone</a> homepage</li>
-                <li>business analysis of potential projects</li>
-                <li>development of proof-of-concept grade desktop application (Electron stack with Vue+Vuex)</li>
-                <li>ongoing development of core product (React+Redux)</li>
-                <li>small contracts for external clients (development, project management)</li>
+                <li>Development and maintenance of several React-based apps</li>
+                <li>Accessibility audits</li>
+                <li>Mentoring (React, Vue)</li>
+                <li>Test automation & Test automation research (Jest, Cypress)</li>
+                <li>Application security</li>
             </ul>
 
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · React.js · CSS · E2E · Manual Testing · Cypress · ECMAScript · User Experience (UX) · REST APIs · JSON · Software Development · SASS · TypeScript · Cross-browser Compatibility · Jira · English · Code Review · Computer Science · Vuex · JavaScript · Mentoring · Agile Software Development · HTML 5 · Git · Webpack · Cypress.io · Accessibility</p>
 
 
-            <h4 class="heading kilo m-top-2">Front end developer @ IBM ISC</h4>
-            <p class="m-top-0">Jun 2011 - present</p>
+            <h4 class="heading kilo m-top-2">Co-Founder @ LabZone s.r.o.  <span class="time">Mar 2017 - Present</span></h4>
             <ul>
-                <li>development of ibm.com front end library</li>
-                <li>development of ibm.com prototypes </li>
-                <li>consulting activities related to integration of front end library</li>
-                <li>mentoring, teaching, coaching</li>
-                <li>CV screening for HR, interviewing</li>
+                <li>New business development</li>
+                <li>Contract negotiations</li>
+                <li>Headhunting</li>
+                <li>FrontEnd engineering incl. architecture (React, Vue, CSS modules, SCSS, responsive design...)</li>
+                <li>DevOps (Heroku, Netlify, Docker, Webpack, Gulp)</li>
+                <li>Design</li>
+            </ul>
+
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · React.js · CSS · E2E · Manual Testing · ECMAScript · Bootstrap · User Experience (UX) · REST APIs · Redux.js · JSON · Software Development · Firebase · Docker Products · Vue.js · SASS · TypeScript · Cross-browser Compatibility · English · Code Review · Computer Science · Vuex · JavaScript · Mentoring · Client Relations · Recruiting · Business Development · Agile Software Development · HTML 5 · Git · PHP · Wordpress · Webpack · Accessibility</p>
+
+
+            <h4 class="heading kilo m-top-2">Lead Developer @ Digital Design System @ IBM <span class="time">Sep 2018 - Nov 2019</span></h4>
+            <ul>
+                <li>Leading a team responsible for development and maintenance of parallel major versions of Design System</li>
+                <li>FrontEnd architecture research and POCs for new Design System branches</li>
+                <li>Working closely with PO, UX and Design leads to form a strategy for new Design system according to various POVs (brand, adoption, scaling) and requirements (accessibility, UX flows)</li>
+                <li>Identifying critical platforms for early DS feedback, requirements and strategy forming</li>
+            </ul>
+
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · CSS · E2E · Manual Testing · ECMAScript · User Experience (UX) · Software Development · Design Standards · SASS · Cross-browser Compatibility · English · Code Review · Computer Science · Agile Software Development · HTML 5 · Git · Accessibility</p>
+
+
+
+
+            <h4 class="heading kilo m-top-2">Front-end developer @ IBM.com Design system team <span class="time">Jun 2012 - Feb 2018</span></h4>
+            <ul>
+                <li>Creating UI patterns for company-wide design system with focus on reusability, accessibility and brand design and responsiveness</li>
+                <li>Supporting design system adopters and/or large scale adoption initiatives throughout the company</li>
+                <li>Design system DevOps (versioning, development/maintenance of custom build pipeline, Akamai CDN)</li>
+                <li>Knowledge sharing (mostly in FrontEnd engineering and Design system)</li>
+                <li>Mentoring (skills and career path oriented)</li>
+                <li>Founding and running internal JS-guild</li>
+            </ul>
+
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · CSS · Manual Testing · ECMAScript · Software Development · Design Standards · SASS · Cross-browser Compatibility · English · HTML 5 · Git · Accessibility</p>
+
+
+            <h4 class="heading kilo m-top-2">Corporate Webmaster <span class="time">Feb 2011 - Jun 2012</span></h4>
+            <ul>
+                <li>Development of static UI patterns for company wide design system with respect to brand design requirements, accessibility, semantic HTML and strong cross browser support (as low as IE6).</li>
             </ul>
 
             <p>Most notable projects:</p>
-            
+
             <ul>
-                <li><a href="https://www.ibm.com/us-en/">IBM US homepage</a> (serveral prototypes)</li>
+                <li><a href="https://www.ibm.com/us-en/">IBM US homepage</a> (several prototypes)</li>
                 <li><a href="https://www.ibm.com/cloud/cloudant/">IBM Cloudant offering page</a></li>
             </ul>
 
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · CSS · E2E · Design Standards · SASS · Cross-browser Compatibility · English · Computer Science · HTML 5 · Accessibility</p>
 
-
-
-            <h4 class="heading kilo m-top-2">Front end developer @ Bait s.r.o</h4>
-            <p class="m-top-0">Aug 2011 - Dec 2012 Part time </p>
-            
+            <h4 class="heading kilo m-top-2">Front end developer @ Bait s.r.o <span class="time">Aug 2011 - Dec 2012 Part time</span></h4>
             <ul>
                 <li>development of webpages in larger team (HTML, CSS, SEO)</li>
                 <li>development of Front end for Tickk mobile app</li>
             </ul>
 
-
             <p>Most notable projects:</p>
 
             <ul>
                 <li><a href="http://funradio.sk/">Funradio</a></li>
-                <li><a href="http://edencars.sk/">Edencars</a></li>
             </ul>
 
+            <p class="skills"><strong>Skills utilised</strong>: Front-end Development · CSS · ECMAScript · Bootstrap · SASS · Cross-browser Compatibility · Jira · HTML 5</p>
 
-            <h4 class="heading kilo m-top-2">Multiple roles @ IBM trough Manpower Slovakia</h4>
-            <p class="m-top-0">Jun 2007 - Jun 2011</p>
 
+
+
+
+
+            <h4 class="heading kilo m-top-2">Web Production Lead <span class="time">Mar 2008 - Jan 2011</span></h4>
             <ul>
-                    <li>web builder: creation of product pages</li>
-                    <li>QA specialist: ensuring quality standards</li>
-                    <li>Web production lead: management of SWG web projects in EMEA region</li>
-                </ul>
+                <li>Managing EMEA client relationships of internal marketing department.</li>
+                <li>Technical consultancy in various areas (web technologies, social media, SEO)</li>
+                <li>Project management</li>
+            </ul>
+
+            <p class="skills"><strong>Skills utilised</strong>: E2E · Cross-browser Compatibility · English · HTML 5</p>
 
 
-                <h4 class="heading kilo m-top-2">Administrator @ Hargita s.r.o.</h4>
-                <p class="m-top-0">Mar 2005 - May 2007</p>
+            <h4 class="heading kilo m-top-2">Web Builder <span class="time">Jun 2007 - Feb 2008</span></h4>
+            <ul>
+                <li>Creating marketing websites for various IBM products using proprietary CMS platform.</li>
+            </ul>
+
+            <p class="skills"><strong>Skills utilised</strong>: CSS · E2E · English</p>
+
+
+            <h4 class="heading kilo m-top-2">Administrator @ Hargita s.r.o. <span class="time">Mar 2005 - May 2007</span></h4>
+            <ul>
+                <li>webdevelopment</li>
+                <li>development and maintenance of offline eCatalogue for sales support</li>
+                <li>HW and SW maintenance</li>
+                <li>design</li>
+            </ul>
             
-                <ul>
-                        <li>webdevelopment</li>
-                        <li>development and maintenance of offline eCatalogue for sales support</li>
-                        <li>HW and SW maintenance</li>
-                        <li>design</li>
-                    </ul>
-            
-            <h4 class="heading kilo m-top-2">Freelancing</h4>
-            <p class="m-top-0">Mar 2004 - May 2016 </p>
-            
+            <h4 class="heading kilo m-top-2">Freelancing <span class="time">Mar 2004 - May 2016</span></h4>
+
             <ul>
                 <li>webdevelopment</li>
                 <li>HW and SW maintenance</li>
                 <li>design</li>
             </ul>
 
-            <p>Most notable projects:</p>
-
-            <ul>
-                    <li><a href="http://kandidat.azyl.sk/">Kandidat.azyl.sk</a> (as konkurencia.eu)</li>
-                    <li><a href="http://www.demovnica.sk/">Demovnica</a> (as konkurencia.eu)</li>
-                    <li><a href="http://lavitapezinok.sk/">Lavita Pezinok</a> (as konkurencia.eu)</li>
-                    <li><a href="http://www.hudobna-skupina.sk/">Kollarband</a></li>
-       
-                </ul>
-
-
-
-
 
             <h3 class="heading m-top-1">Pet projects</h3>
 
             <ul>
                 <li><a href="http://vlad-saling.github.io/star-trek-ipsum/">Star Trek ipsum</a></li>
-                <li><a href="http://www.meetpollux.com">Book reviews</a></li>
-                <li><a href="https://steemit.com/@mrakodrap">Dev, crypto, podcasts web log</a>
-                <li><a href="https://github.com/LabZoneSK/Le-co">Le-co</a>: minimalistic UI lib (WIP)</li>
-                <li><a href="https://github.com/LabZoneSK/Le-co-Grid">Le-co grid</a>: minimalistic educational framework for CSS Grids</li>
-                <li><a href="https://discord.gg/eV5M5V8">Blockchain/Cryptocurrencies community</a></li>
-                <li><a href="https://github.com/vlad-saling?tab=repositories">and other small stuff</a></li>
             </ul>
 
 
